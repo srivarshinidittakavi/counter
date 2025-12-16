@@ -1,6 +1,8 @@
 import Counter from "./components/Counter";
 import Calculator from "./components/Calculator";
 import MessageCard from "./components/MessageCard";
+import UserProfile from "./components/UserProfile";
+
 
 function App() {
   return (
@@ -18,6 +20,9 @@ function App() {
         <MessageCard title="Assignment" message="You are building a MessageCard component." />
         <MessageCard title="Final Card" message="Each card shows different text." />
       </div>
+      <h2>Parent–Child Props Example</h2>
+      <UserProfile />
+
     </div>
   );
 }
